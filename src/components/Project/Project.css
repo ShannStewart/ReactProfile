@@ -1,0 +1,13 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    margin: .5cm;
+    padding: .5cm;
+    align-items: center;
+}
+
+.projectLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

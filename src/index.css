@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'slab', 'dotGoth', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body{
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  margin-left: 0;
+}
+
+@font-face {
+  font-family: 'dotGoth';
+  src: url('DotGothic16-Regular.ttf')
+  }
+
+  @font-face{
+    font-family: 'slab';
+    src: url('RobotoSlab-VariableFont_wght.ttf');
+  }
