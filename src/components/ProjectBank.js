@@ -1,7 +1,7 @@
 export default [
     {
         'name': 'Simple DnD',
-        'img': 'https://i.imgur.com/55AJpik.png',
+        'img': 'https://i.imgur.com/L9l4Vaq.png',
         'alt': 'dnd character sheet',
         'project_tools': 'HTML, CSS, JavaScript, React, PostSql',
         'details': 'A form that uses states to change in real time. Interacts with a database hosted on Heroku.',
