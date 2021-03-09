@@ -15,7 +15,7 @@ export default [
         'img': 'https://i.imgur.com/wVVX7aH.png',
         'alt': 'quiz application',
         'project_tools': 'HTML, CSS, JavaScript, React, PostSql',
-        'details': 'Meant to create quizzes that other users would be able to take. Manages users, quesitons and quizzes on a database hosted by Heroku.',
+        'details': 'Meant to create quizzes that other users would be able to take. Manages users, questions and quizzes on a database hosted by Heroku.',
         'links': [
         {'name': 'Site', 'link': 'https://quizard-client.vercel.app/'},
         {'name': 'Repo', 'link': 'https://github.com/ShannStewart/quizard'}
