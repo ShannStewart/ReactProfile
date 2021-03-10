@@ -3,7 +3,7 @@ export default [
         'name': 'Simple DnD',
         'img': 'https://i.imgur.com/L9l4Vaq.png',
         'alt': 'dnd character sheet',
-        'project_tools': 'HTML, CSS, JavaScript, React, PostSql',
+        'project_tools': 'HTML, CSS, JavaScript, React, PostgreSql',
         'details': 'A form that uses states to change in real time. Interacts with a database hosted on Heroku.',
         'links': [
         {'name': 'Site', 'link': 'https://simple-dnd-shannstewart.vercel.app/'},
@@ -14,7 +14,7 @@ export default [
         'name': 'Quizard',
         'img': 'https://i.imgur.com/wVVX7aH.png',
         'alt': 'quiz application',
-        'project_tools': 'HTML, CSS, JavaScript, React, PostSql',
+        'project_tools': 'HTML, CSS, JavaScript, React, PostgreSql',
         'details': 'Meant to create quizzes that other users would be able to take. Manages users, questions and quizzes on a database hosted by Heroku.',
         'links': [
         {'name': 'Site', 'link': 'https://quizard-client.vercel.app/'},
