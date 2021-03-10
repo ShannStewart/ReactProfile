@@ -25,8 +25,8 @@ class App extends Component {
 
       <section className='topnav'>
       <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH0Yw8h2bq_9Q/profile-displayphoto-shrink_400_400/0/1609006725332?e=1620864000&v=beta&t=wWIVsZruOMpMgV_el5ic6m8_izEyol5L8-OkNYbaCc4" alt="Zackry Broodie-Stewart"/>
-      <h3 class='name'>Zackry Broodie-Stewart</h3>
-          <div class='contactInfo'> 
+      <h3 className='name'>Zackry Broodie-Stewart</h3>
+          <div className='contactInfo'> 
             <a href="https://www.linkedin.com/in/zackrybroodiestewart" target="_blank">Linkedin</a>
           <a href="https://github.com/ShannStewart" target="_blank">GitHub</a>
           <a href="mailto:Zackry.Broodie.Stewart@gmail.com" target="_blank">Email</a>

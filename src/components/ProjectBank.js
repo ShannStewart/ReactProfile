@@ -7,7 +7,8 @@ export default [
         'details': 'A form that uses states to change in real time. Interacts with a database hosted on Heroku.',
         'links': [
         {'name': 'Site', 'link': 'https://simple-dnd-shannstewart.vercel.app/'},
-        {'name': 'Repo', 'link': 'https://github.com/ShannStewart/dnd-client'},
+        {'name': 'Client Repo', 'link': 'https://github.com/ShannStewart/dnd-client'},
+        {'name': 'Server Repo', 'link': 'https://github.com/ShannStewart/dnd-server.git'}
         ]
     },
     {
@@ -18,7 +19,8 @@ export default [
         'details': 'Meant to create quizzes that other users would be able to take. Manages users, questions and quizzes on a database hosted by Heroku.',
         'links': [
         {'name': 'Site', 'link': 'https://quizard-client.vercel.app/'},
-        {'name': 'Repo', 'link': 'https://github.com/ShannStewart/quizard'}
+        {'name': 'Client Repo', 'link': 'https://github.com/ShannStewart/quizard'},
+        {'name': 'Server Repo', 'link': 'https://github.com/ShannStewart/quizard-server.git'}
         ],
     },
     {
