@@ -28,6 +28,7 @@ export default [
         'project_tools': 'HTML, CSS, Javascript, jQuery, Cors',
         'details': 'Connects with serverl APIs to produce media searches on Marvel comicbook characters.',
         'links': [
+            {'name': 'Site', 'link': 'https://shannstewart.github.io/Marvel-Character-Search/'},
             {'name': 'Repo', 'link': 'https://github.com/ShannStewart/Marvel-Character-Search'},
             {'name': 'ReadMe', 'link': 'https://github.com/ShannStewart/Marvel-Character-Search/blob/master/readme.md'}
         ]
