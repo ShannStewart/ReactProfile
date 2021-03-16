@@ -9,13 +9,25 @@ export default class Project extends Component {
         click: 0
     }
 
-    emailAlert = (a) => {
+    emailAlert = (a, b) => {
 
-        var message = { to_name: 'Shann', app: a};
+        var ip = b;
+
+        var message = { to_name: 'Shann', app: a, location: ip.city, state: ip.region};
+
+        if(ip.security.is_vpn){
+            var security = 'This was sent using a vpn';
+        }
+        else{
+            var security ='This was not sent using a vpn';
+        }
+
+        message.vpn = security;
+        
 
     if (this.state.click <= 0){
         
-        emailjs.send('profile_alarm', 'template_lsd3oy7', message, 'user_vozk5NYICxbUDkXQc6TDp')
+        emailjs.send('profile_alarm', 'template_0qmd7to', message, 'user_vozk5NYICxbUDkXQc6TDp')
         .then((result) => {
            // console.log(result.text + ' app name: ' + JSON.stringify(message.app) ); 
         }, (error) => {
@@ -38,7 +50,7 @@ export default class Project extends Component {
             <p>Project Tools: {this.props.tools}</p>
             <p>{this.props.details}</p>
             <div className='projectLinks'>
-                {this.props.links.map((link, index) => <a key={index} href={link.link} onClick={() => this.emailAlert(this.props.name)} target="_blank">{link.name}</a>)}
+                {this.props.links.map((link, index) => <a key={index} href={link.link} onClick={() => this.emailAlert(this.props.name, this.props.ip)} target="_blank">{link.name}</a>)}
             </div>
         </div>
         )

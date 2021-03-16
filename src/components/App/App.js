@@ -7,6 +7,31 @@ import ProjectBank from '../ProjectBank';
 import Project from '../Project/Project';
 
 class App extends Component {
+  state = {
+    ip: {},
+  }
+
+  componentDidMount(){
+    const https = require('https')
+    https.get("https://ipgeolocation.abstractapi.com/v1?api_key=fb1da43d124246febbac595878d333bb", (resp) => {
+    let data = "";
+
+    // A chunk of data has been received.
+    resp.on("data", (chunk) => {
+        data += chunk;
+    });
+
+    // The whole response has been received. Print out the result.
+    resp.on("end", () => {
+       // console.log(JSON.parse(data));
+        this.setState({ ip : JSON.parse(data) });
+    });
+
+    }).on("error", (err) => {
+    console.log("Error: " + err.message);
+    });
+
+  }
 
   render(){
     return (
@@ -47,6 +72,7 @@ class App extends Component {
       tools={project.project_tools}
       details={project.details}
       links={project.links}
+      ip={this.state.ip}
       />)}
 
        </section>
