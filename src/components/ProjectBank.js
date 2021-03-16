@@ -11,18 +11,18 @@ export default [
         {'name': 'Server Repo', 'link': 'https://github.com/ShannStewart/dnd-server.git'}
         ]
     },
-    {
-        'name': 'Quizard',
-        'img': 'https://i.imgur.com/wVVX7aH.png',
-        'alt': 'quiz application',
-        'project_tools': 'HTML, CSS, JavaScript, React, PostgreSql',
-        'details': 'Meant to create quizzes that other users would be able to take. Manages users, questions and quizzes on a database hosted by Heroku.',
-        'links': [
-        {'name': 'Site', 'link': 'https://quizard-client.vercel.app/'},
-        {'name': 'Client Repo', 'link': 'https://github.com/ShannStewart/quizard'},
-        {'name': 'Server Repo', 'link': 'https://github.com/ShannStewart/quizard-server.git'}
-        ],
-    },
+ //   {
+ //       'name': 'Quizard',
+ //       'img': 'https://i.imgur.com/wVVX7aH.png',
+ //       'alt': 'quiz application',
+ //       'project_tools': 'HTML, CSS, JavaScript, React, PostgreSql',
+ //      'details': 'Meant to create quizzes that other users would be able to take. Manages users, questions and quizzes on a database hosted by Heroku.',
+ //       'links': [
+ //       {'name': 'Site', 'link': 'https://quizard-client.vercel.app/'},
+ //       {'name': 'Client Repo', 'link': 'https://github.com/ShannStewart/quizard'},
+ //       {'name': 'Server Repo', 'link': 'https://github.com/ShannStewart/quizard-server.git'}
+ //       ],
+ //   },
     {
         'name': 'Marvel Character Search',
         'img': 'https://raw.githubusercontent.com/ShannStewart/Marvel-Character-Search/master/napkin/screens/cards.PNG',
