@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 import ProjectBank from '../ProjectBank';
 import Project from '../Project/Project';
+import Zack from './Zack.jpg'
 
 class App extends Component {
   state = {
@@ -38,7 +39,7 @@ class App extends Component {
     <div className='App'>
 
       <section className='sidenav'>
-      <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH0Yw8h2bq_9Q/profile-displayphoto-shrink_400_400/0/1609006725332?e=1620864000&v=beta&t=wWIVsZruOMpMgV_el5ic6m8_izEyol5L8-OkNYbaCc4" alt="Zackry Broodie-Stewart"/>
+      <img src={Zack} alt="Zackry Broodie-Stewart"/>
         <p className='name'>Zackry Broodie-Stewart</p>
         <p className='bio'>A Web Developer. I recieved a passion for computers from my family of programmers. I hope to work with like minded individuals.  I'm from the New York Area.  When I'm not working I am reading comics or playing games.</p>
           <div className='contactInfo'>
